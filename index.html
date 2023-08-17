@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="w-[150px] h-[150px] bg-black">
+<body class="bg-slate-950">
 
-    </div>
+    <header class="bg-slate-900 h-[70px] w-[100%] flex items-center place-content-around">
+
+        <a href="#" class="text-yellow-100" title="Logo da página">
+            <h1 class="text-[25px] font-bold">Logo</h1>
+        </a>
+
+        <nav>
+            <ul class="flex gap-3">
+                <a href="#">  
+                    <li class="text-[15px] text-slate-100 font-semibold hover:underline">Home</li>
+                </a>
+                <a href="#">  
+                    <li>Contato</li>
+                </a>
+                <a href="#">  
+                    <li>Sobre</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
 </body>
 </html>
